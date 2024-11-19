@@ -400,6 +400,24 @@
     border-radius: 2px;
 }
 
+.speaker-soon {
+    font-size: 1.5rem;
+    height: 500px;
+    color: black;
+    font-weight: 600;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    margin-left: -700px;
+}
+
+.speaker-soon h1 {
+  font-size: 1.5rem;
+  height: 500px;
+  color: black;
+  font-weight: 600;
+  margin-left: -700px;
+}
+
 footer {
   max-height: 500px;
   background-color: #2d2f84;

@@ -494,6 +494,33 @@ footer a:hover {
   }
 }
 
+.container2 {
+  margin: 0 auto;
+  font-family: "Jost", sans-serif;
+  margin-left: 98px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 15px;
+  color: black;
+  font-size: 23px;
+}
+
+.container2 h1, h2 {
+  margin-bottom: 45px;
+  margin-top: 40px;
+  color: black;
+}
+
+.container2 ul {
+  margin-left: 20px;
+  color: black;
+
+}
+
+.container2 a {
+  color: blue;
+  text-decoration: underline;
+}
 
  /*-----------------------------------*\
    * #MEDIA QUERRIES

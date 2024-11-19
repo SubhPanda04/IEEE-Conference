@@ -493,6 +493,33 @@ footer a:hover {
   }
 }
 
+.deadline-table {
+  width: 850px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-left: 83px;
+  height: 600px;
+}
+
+.deadline-table th, 
+.deadline-table td {
+  text-align: left;
+  padding: 10px;
+  border: 2px solid #ddd;
+}
+
+.deadline-table th {
+  background-color: #f9f9f9;
+  width: 40%;
+}
+
+
+
+.highlight {
+  color: #5a5ec6;
+  font-weight: bold;
+}
+
  /*-----------------------------------*\
    * #MEDIA QUERRIES
   \*-----------------------------------*/

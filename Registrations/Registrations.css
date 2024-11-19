@@ -400,6 +400,81 @@
     border-radius: 2px;
 }
 
+table.registration-table {
+  border-collapse: collapse;
+  width: 1300px;
+  height: 300px;
+  margin-bottom: 80px;
+  margin-top: 50px;
+  margin-left: 90px;
+  margin-right: 40px;
+}
+
+table.registration-table th, table.registration-table td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+table.registration-table th {
+  background-color: #f2f2f2;
+}
+
+table.registration-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.payment p {
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 90px;
+  margin-top: 50px;
+  color: #333;
+}
+
+.payment1 p {
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 90px;
+  margin-top: -20px;
+  color: #333;
+}
+
+table.payment-table {
+  border-collapse: collapse;
+  width: 1300px;
+  height: 300px;
+  margin-bottom: 80px;
+  margin-top: 50px;
+  margin-left: 90px;
+  margin-right: 40px;
+  justify-content: center;
+}
+
+table.payment-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+table.payment-table td.label {
+  background-color: #f2f2f2;
+  text-align: left;
+  font-weight: bold;
+}
+
+table.payment-table td.value {
+  text-align: right;
+}
+
+.container2 ul {
+  margin-left: 90px;
+  color: black;
+}
+
+.container2 {
+  margin-bottom: 80px;
+}
+
 footer {
   max-height: 500px;
   background-color: #2d2f84;
