@@ -22,7 +22,7 @@
   -->
   <header class="header" data-header>
     <div class="container">
-      <a href="index.html">
+      <a href="../index.html">
         <h1 class="brand-name">ICAIET 2025</h1>
       </a>
     
@@ -122,30 +122,57 @@
       <p><a href="./conference-latex-template_10-17-19.zip" download>Click here to submit</a></p>
   </div>
 
-    <footer>
-      <div class="section icaiet-section"> 
-          <h3 class="icaiet-heading">ICAIET 2025</h3>
-          <p>International Conference On Artificial Intelligence And Emerging Technologies</p>
-      </div>
-      <div class="section quick-links-section">
-          <h3 class="quick-links-heading">Quick Links</h3>
-          <ul>
+  <footer>
+    <div class="section map-section">
+      <div id="map"></div>
+    </div>
+    <div class="section quick-links-section">
+        <h3 class="quick-links-heading">Quick Links</h3>
+        <ul>
             <li><a href="../index.html">Home</a></li>
-            <li><a href="../Committee/Committee.html">Committee</a></li>
-            <li><a href="../For Authors/Important Dates/Important Dates.html">For Authors</a></li>
+            <li><a href="../Committee/index.html">Committee</a></li>
+            <li><a href="../For Authors/Important Dates/index.html">For Authors</a></li>
             <li><a href="../Registrations/Registrations.html">Registration</a></li>
-            <li><a href="../Call for Papers/Call For Papers.html">Call For Papers</a></li>
-            <li><a href="../Speakers/Speakers.html">Speakers</a></li>
-            <li><a href="../Contact/contact.html">Contact</a></li>
+            <li><a href="../Call for Papers/index.html">Call For Papers</a></li>
+            <li><a href="../Speakers/index.html">Speakers</a></li>
+            <li><a href="../Contact/index.html">Contact</a></li>
         </ul>
-      </div>
-      <div class="section contact-section"> <!-- Class for Contact section -->
-          <h3 class="contact-heading">Contact Us</h3>
-          <p><strong>Address:</strong>  International Center, XIM University Bhubaneswar (New Campus), Harirajpur-752050, Odisha, India.</p>
-          <p><strong>Email: <a href="mailto:deanxcse_office@xim.edu.in">deanxcse_office@xim.edu.in</a></p>
-          <p><strong>Phone: <a href="tel:+917008014054">+917008014054</a></p>
-      </div>
-  </footer>
+    </div>
+    <div class="section contact-section"> <!-- Class for Contact section -->
+        <h3 class="contact-heading">Contact Us</h3>
+        <p><strong>Address:</strong>  International Center, XIM University Bhubaneswar (New Campus), Harirajpur-752050, Odisha, India.</p>
+        <p><strong>Email: <a href="mailto:deanxcse_office@xim.edu.in">deanxcse_office@xim.edu.in</a></p>
+        <p><strong>Phone: <a href="tel:+917008014054">+917008014054</a></p>
+    </div>
+</footer>
 
 
-    <script src="./script.js"></script>
+  
+  
+  
+  
+
+  <script src="./script.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEKd77zWyzhHJDK8NHDDzAHQjqNJ6mn0g&callback=initMap" async defer></script>
+  <script>
+    function initMap() {
+  const conferenceLocation = { lat: 20.1581, lng: 85.7625 }; 
+  
+  // Create the map
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 15, // Zoom level
+    center: conferenceLocation,
+  });
+
+  const marker = new google.maps.Marker({
+    position: conferenceLocation,
+    map: map,
+    title: "Conference Location",
+  });
+}
+  </script>
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

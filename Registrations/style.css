@@ -442,11 +442,11 @@ table.registration-table tr:nth-child(even) {
 
 table.payment-table {
   border-collapse: collapse;
-  width: 1300px;
+  width: 600px;
   height: 300px;
   margin-bottom: 80px;
   margin-top: 50px;
-  margin-left: 90px;
+  margin-left: 500px;
   margin-right: 40px;
   justify-content: center;
 }
@@ -555,6 +555,22 @@ footer a {
 footer a:hover {
   text-decoration: underline;
   color: #0056b3;
+}
+
+footer .map-section {
+  margin-bottom: 20px;
+}
+
+footer .map-heading {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+#map {
+  height: 350px;
+  width: 550px;
+  border-radius: 8px;
 }
 
 @media (max-width: 768px) {

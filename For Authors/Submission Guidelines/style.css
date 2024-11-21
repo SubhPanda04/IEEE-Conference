@@ -522,6 +522,22 @@ footer a:hover {
   text-decoration: underline;
 }
 
+footer .map-section {
+  margin-bottom: 20px;
+}
+
+footer .map-heading {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+#map {
+  height: 350px;
+  width: 550px;
+  border-radius: 8px;
+}
+
  /*-----------------------------------*\
    * #MEDIA QUERRIES
   \*-----------------------------------*/

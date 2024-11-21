@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const now = new Date().getTime();
     const distance = targetDate - now;
 
-    // If countdown is finished
     if (distance < 0) {
       clearInterval(countdownInterval);
       document.getElementById('days').textContent = '00';
@@ -14,8 +13,6 @@ document.addEventListener('DOMContentLoaded', function () {
       document.getElementById('seconds').textContent = '00';
       return;
     }
-
-    // Calculate time units
     const days = Math.floor(distance / (1000 * 60 * 60 * 24));
     const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));

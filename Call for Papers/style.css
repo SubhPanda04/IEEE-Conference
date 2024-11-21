@@ -391,6 +391,136 @@ h3 > a { color: inherit; }
     border-radius: 2px;
 }
 
+.about-description {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: black;
+  margin-bottom: 30px;
+  margin-top: 60px;
+  margin-left: 94px;
+  margin-right: 94px;
+}
+
+
+.conf-tracks-section {
+  padding: 50px;
+  background-color: white;
+  color: black;
+  text-align: left;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.conf-tracks-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  display: inline-flex;
+}
+
+.conf-tracks-divider {
+  width: 130px;
+  height: 3px;
+  background-color: #5a5ec6;
+  margin: 20px 0;
+}
+
+.conf-tracks-description {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.conf-tracks-description ul {
+  padding-left: 20px;
+  color: black;
+}
+
+.conf-tracks-description ul li {
+  margin-bottom: 10px;
+  display: list-item;
+  color: black;
+}
+
+.special-tracks-section {
+  padding: 50px;
+  background-color: white;
+  color: black;
+  text-align: left;
+  margin-top: -20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.special-tracks-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  display: inline-flex;
+}
+
+.special-tracks-divider {
+  width: 130px;
+  height: 3px;
+  background-color: #5a5ec6;
+  margin: 20px 0;
+}
+
+.special-tracks-description {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.special-tracks-description ul {
+  padding-left: 20px;
+  color: black;
+}
+
+.special-tracks-description ul li {
+  margin-bottom: 10px;
+  display: list-item;
+  color: black;
+}
+
+.header1 {
+  color: black; 
+  text-align: center; 
+  padding: 10px 0;
+  font-size: 20px; 
+  font-weight: bold; 
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+
+.header2 {
+  color: black; 
+  text-align: center; 
+  padding: 10px 0;
+  font-size: 20px; 
+  font-weight: bold; 
+  margin-top: 30px;
+  margin-bottom: 70px;
+  margin-left: -80px;
+}
+
+.call-btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #5a5ec6;
+  color: white;
+  font-size: 1.1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  margin-top: -90px;
+  margin-left: 600px;
+  margin-right: 40px;
+}
+
 footer {
   max-height: 500px;
   background-color: #2d2f84;
@@ -471,6 +601,22 @@ footer a {
 footer a:hover {
   text-decoration: underline;
   color: #0056b3;
+}
+
+footer .map-section {
+  margin-bottom: 20px;
+}
+
+footer .map-heading {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+#map {
+  height: 350px;
+  width: 550px;
+  border-radius: 8px;
 }
 
 @media (max-width: 768px) {

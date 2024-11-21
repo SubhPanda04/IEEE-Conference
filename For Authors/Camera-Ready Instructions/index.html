@@ -60,12 +60,12 @@
 </div>
 
 <div class="container2">
-  <p><strong>Please note that the last date for uploading the final camera-ready manuscript is December 20, 2024, 23:59 IST.</strong></p>
+  <p><strong>Please note that the last date for uploading the final camera-ready manuscript is April 5, 2025, 23:59 IST.</strong></p>
   <br>
   <p>
     <strong>
-        At least one author must complete the registration before uploading the final manuscript. See the: 
-        <a href="Registrations/Registrations.html" style="display: inline;">Registrations Page</a> for details.
+        At least one author must complete the registration before deadline. See the: 
+        <a href="Registrations\index.html" style="display: inline;">Registrations Page</a> for details.
     </strong>
 </p>
 
@@ -116,7 +116,7 @@
 <br>
 <p>If you have not used PDF eXpress before, you will need to create an account first:</p>
 <br>
-<p>After carefully checking if your manuscript conforms to IEEE Xplore guidelines, you need to get it approved by IEEE PDF eXpress. To this purpose, you can login (Enter Conference ID <strong>63599X</strong>) to the <a href="https://ieee-pdf-express.org/account/login?ReturnUrl=%2F" style="display:inline;">EEE PDF eXpress page</a>for you to upload your paper for approval.</p>
+<p>After carefully checking if your manuscript conforms to IEEE Xplore guidelines, you need to get it approved by IEEE PDF eXpress. To this purpose, you can login (Enter Conference ID <strong>63599X</strong>) to the <a href="https://ieee-pdf-express.org/account/login?ReturnUrl=%2F" style="display:inline;">IEEE PDF eXpress page</a>for you to upload your paper for approval.</p>
   <br>
   <ol>
     <li>■ Select the Create account</li>
@@ -199,21 +199,20 @@
 </div>
 
 <footer>
-  <div class="section icaiet-section"> 
-      <h3 class="icaiet-heading">ICAIET 2025</h3>
-      <p>International Conference On Artificial Intelligence And Emerging Technologies</p>
+  <div class="section map-section">
+    <div id="map"></div>
   </div>
   <div class="section quick-links-section">
       <h3 class="quick-links-heading">Quick Links</h3>
       <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="../Committee/Committee.html">Committee</a></li>
-        <li><a href="../For Authors/Important Dates/Important Dates.html">For Authors</a></li>
-        <li><a href="../Registrations/Registrations.html">Registration</a></li>
-        <li><a href="../Call for Papers/Call For Papers.html">Call For Papers</a></li>
-        <li><a href="../Speakers/Speakers.html">Speakers</a></li>
-        <li><a href="../Contact/contact.html">Contact</a></li>
-    </ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../Committee/index.html">Committee</a></li>
+          <li><a href="../For Authors/Important Dates/index.html">For Authors</a></li>
+          <li><a href="../Registrations/Registrations.html">Registration</a></li>
+          <li><a href="../Call for Papers/index.html">Call For Papers</a></li>
+          <li><a href="../Speakers/index.html">Speakers</a></li>
+          <li><a href="../Contact/index.html">Contact</a></li>
+      </ul>
   </div>
   <div class="section contact-section"> <!-- Class for Contact section -->
       <h3 class="contact-heading">Contact Us</h3>
@@ -223,13 +222,36 @@
   </div>
 </footer>
 
-  <script src="./script.js"></script>
 
-  <!-- 
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
+
+
+<script src="./script.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEKd77zWyzhHJDK8NHDDzAHQjqNJ6mn0g&callback=initMap" async defer></script>
+<script>
+  function initMap() {
+const conferenceLocation = { lat: 20.1581, lng: 85.7625 }; 
+
+// Create the map
+const map = new google.maps.Map(document.getElementById("map"), {
+  zoom: 15, // Zoom level
+  center: conferenceLocation,
+});
+
+const marker = new google.maps.Marker({
+  position: conferenceLocation,
+  map: map,
+  title: "Conference Location",
+});
+}
+</script>
+<!-- 
+  - ionicon link
+-->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 
