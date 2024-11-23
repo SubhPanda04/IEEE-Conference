@@ -435,10 +435,12 @@
   }
 
   footer {
-    max-height: 500px;
+    max-height: 550px;
     background-color: #2d2f84;
     color: #343a40;
     padding: 50px;
+    margin-left: -110px;
+    margin-right: -20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -451,6 +453,10 @@
     font-size: 24px;
     margin: 0 35px;
     text-align: left;
+  }
+
+  footer .contact-section p {
+    color: white;
   }
   
   .icaiet-section {
@@ -496,7 +502,6 @@
   }
   
   footer ul {
-    list-style-type: circle;
     padding: 0;
     margin: 0;
   }
@@ -515,7 +520,7 @@
     text-decoration: underline;
     color: #0056b3;
   }
-
+  
   footer .map-section {
     margin-bottom: 20px;
   }
@@ -543,6 +548,7 @@
         text-align: center;
     }
   }
+  
 
    /*-----------------------------------*\
    * #MEDIA QUERRIES
