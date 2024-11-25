@@ -76,11 +76,13 @@
     font-family: var(--ff-jost);
     color: var(--sonic-silver);
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
   
   body {
     background: var(--white);
     padding-block: 70px;
+    overflow-x: hidden;
   }
   
   
@@ -784,25 +786,14 @@
   line-height: 1;
   color: #5a5ec6;
   margin-bottom: 40px;
+  width: 100%;
   font-weight: bold;
   padding: 10px 20px;
   white-space: nowrap; 
   position: absolute; 
-  animation: moveLeftToRight 20s linear infinite;
+  overflow-x: hidden;
+  animation: moveLeftToRight 20s;
 }
-
-
-/* Define animation */
-@keyframes moveLeftToRight {
-  0% {
-    transform: translateX(100%); 
-  }
-  100% {
-    transform: translateX(-100%); /* Move completely off-screen to the right */
-  }
-}
-
-
 
 .highlighted-text {
     color: #5a5ec6;
