@@ -792,7 +792,16 @@
   white-space: nowrap; 
   position: absolute; 
   overflow-x: hidden;
-  animation: moveLeftToRight 20s;
+  animation: moveLeftToRight 20s linear infinite;
+}
+
+@keyframes moveLeftToRight {
+  0% {
+    transform: translateX(100%); 
+  }
+  100% {
+    transform: translateX(-100%); 
+  }
 }
 
 .highlighted-text {
